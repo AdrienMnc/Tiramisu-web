@@ -1,0 +1,14 @@
+@import 'global.scss';
+
+.headband{
+    background-color: $bg-container;
+    color: $color-light;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+    transition: all 0.2s;
+}

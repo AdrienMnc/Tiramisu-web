@@ -1,0 +1,19 @@
+.container {
+  margin: 0 5rem;
+  padding: 0 1rem;
+}
+
+.radius {
+  border-radius: 0.5rem;
+}
+
+.padding-20 {
+  padding: 2rem;
+}
+
+body {
+  background-color: #FBF3E8;
+  color: #623905;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+}/*# sourceMappingURL=app.css.map */
