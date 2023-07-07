@@ -1,14 +1,107 @@
+.headband {
+  background-color: #D5B78A;
+  color: #F7E6D0;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transition: all 0.2s;
+}
+
 .container {
-  margin: 0 5rem;
+  margin: 3rem 5rem;
   padding: 0 1rem;
 }
-
-.radius {
-  border-radius: 0.5rem;
+.container .flex {
+  display: flex;
+  align-items: center;
+  gap: 10%;
+}
+.container .flex .media {
+  width: 30%;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.container .flex .media img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container .flex .link {
+  text-align: center;
+  margin-top: 2rem;
+}
+.container .flex .link a {
+  background-color: #D5B78A;
+  border-radius: 100px;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  color: #F7E6D0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.container .flex .link a:hover {
+  color: #A67C52;
+}
+.container .content {
+  color: #623905;
+}
+.container .content p {
+  text-align: center;
+}
+.container .text-content {
+  font-size: 1.5rem;
+  padding: 2rem;
+  border-radius: 20px;
+  color: #F7E6D0;
+  background-color: #D5B78A;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
-.padding-20 {
-  padding: 2rem;
+.text-content {
+  text-align: center;
+}
+
+.form-content form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.form-content form input {
+  border-radius: 20px;
+  border: none;
+  padding: 15px;
+  width: 70%;
+  margin: 1rem auto;
+}
+.form-content form input:last-of-type {
+  margin-bottom: 4rem;
+}
+.form-content form .btn {
+  width: 20%;
+  margin: auto;
+  background-color: #F7E6D0;
+  border-radius: 100px;
+  border: none;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  color: #623905;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.form-content form .btn:hover {
+  color: #A67C52;
+  width: 22%;
 }
 
 body {

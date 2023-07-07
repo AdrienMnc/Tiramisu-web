@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/header.scss'
+import '../styles/app.scss'
 
 export default function Header() {
   return (

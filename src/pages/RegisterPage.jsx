@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { register } from '../services/userService';
-import '../styles/registerPage.scss'
+import '../styles/app.scss'
 
 export default function RegisterPage() {
     const [errorMessage, setErrorMessage] = useState('');

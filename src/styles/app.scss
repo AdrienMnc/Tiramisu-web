@@ -1,4 +1,7 @@
-@import 'global.scss';
+@import './partials/global.scss';
+@import './partials/header.scss';
+@import './partials/mainPage.scss';
+@import './partials/registerPage.scss';
 
 body{
     background-color: $bg-body;
