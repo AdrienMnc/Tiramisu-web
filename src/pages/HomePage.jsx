@@ -12,7 +12,7 @@ export default function HomePage() {
           </div>
           <div className="content">
             <p>
-              Avez-vous jamais commencé par regarder la carte des desserts dans le menu d’un restaurant, avant même l’apéritif ou le reste de la carte ?
+              N'avez-vous jamais commencé par regarder la carte des desserts dans le menu d’un restaurant, avant même l’apéritif ou le reste de la carte ?
               <br />
               Si c’est le cas, vous n’êtes pas seul ! 
               <br />
